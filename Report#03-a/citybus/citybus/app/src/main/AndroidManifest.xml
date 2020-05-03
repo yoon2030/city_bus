@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joeyfilm.citybus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Settin_Main"></activity>
+        <activity android:name=".setting2"></activity>
+        <activity android:name=".setting3"></activity>
+        <activity android:name=".setting4"></activity>
+        <activity android:name=".setting5"></activity>
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginMain" />
+        <activity android:name=".login_2" />
+        <activity android:name=".no_sing_up" />
+        <activity android:name=".id_search" />
+        <activity android:name=".id_search_result" />
+        <activity android:name=".pw_search" />
+        <activity android:name=".pw_search_result" />
+        <activity android:name=".sign_up_1" />
+        <activity android:name=".sign_up_2" />
+        <activity android:name=".sign_up_3" />
+        <activity android:name=".sign_up_4"></activity>
+
+        <activity android:name=".Adapter" />
+        <activity android:name=".Main2Activity_Event" />
+        <activity android:name=".MainActivity_event" />
+        <activity android:name=".Mypage" />
+        <activity android:name=".Myadapter" />
+        <activity android:name=".Paylist" />
+        <activity android:name=".Person" />
+        <activity android:name=".Person2" />
+        <activity android:name=".QNA" />
+        <activity android:name=".sign_up" />
+
+        <activity android:name=".confirm" />
+        <activity android:name=".Favorites" />
+        <activity android:name=".payment2" />
+        <activity android:name=".payment" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".BusChoose" />
+
+
+
+
+    </application>
+
+</manifest>

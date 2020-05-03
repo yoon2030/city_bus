@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF88969B">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clickable="false"
+        android:background="#7F9097"
+        android:textColor="#ffffffff"
+        android:text="\n\n예약한 모바일 티켓이 없습니다"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:background="#7F9097"
+        android:text="\u003c"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#7F9097"
+        android:clickable="false"
+        android:drawablePadding="4dp"
+        android:gravity="left"
+        android:paddingLeft="15dp"
+        android:text="자주쓰는카드"
+        android:textColor="#ffffffff"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:clickable="false"
+        android:background="#7F9097"
+        android:gravity="left"
+        android:drawablePadding="4dp"
+        android:textSize="25dp"
+
+
+        android:text="결제내역"
+
+        android:textColor="#ffffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F9097"
+        android:paddingLeft="15dp"
+        android:clickable="false"
+
+        android:drawablePadding="4dp"
+        android:gravity="left"
+        android:textSize="25dp"
+
+        android:text="1:1 문의"
+
+        android:textColor="#ffffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:clickable="false"
+
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:background="#7F9097"
+
+        android:gravity="left"
+        android:textSize="25dp"
+
+        android:text="설정    "
+
+        android:textColor="#ffffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="#7F9097"
+        android:text="\u003e"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:background="#7F9097"
+        android:text="\u003e"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:background="#7F9097"
+        android:text="\u003e"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:background="#7F9097"
+        android:text="\u003e"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="72dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="12dp"
+        android:background="#818181"
+        android:text="로그아웃"
+        android:textColor="#ffffffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
